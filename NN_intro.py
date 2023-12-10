@@ -43,7 +43,7 @@ model.fit(
     epochs=10,
     batch_size=1000)
 
-# print(y_train[0])
+print(y_train[0])
 plt.imshow(X_train[0])
 plt.show()
 
