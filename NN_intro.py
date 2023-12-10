@@ -43,9 +43,9 @@ model.fit(
     epochs=10,
     batch_size=1000)
 
-print(y_train[0])
-plt.imshow(X_train[0])
-plt.show()
+#print(y_train[0])
+#plt.imshow(X_train[0])
+#plt.show()
 
 print(model.predict(X_train[1].reshape(1,784)))
 print(model.predict(X_train.reshape(60000,784)))
