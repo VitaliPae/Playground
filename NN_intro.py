@@ -1,3 +1,4 @@
+# Versuchsprogram für NN Training
 import gzip
 import numpy as np
 import matplotlib.pyplot as plt
